@@ -1,0 +1,124 @@
+.nav-bg
+    background-color: #222222
+    height: 75px
+
+.nav-bar
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+
+.left-nav,
+.right-nav
+    margin-top: 20px
+    &
+        display: -webkit-box
+        display: -ms-flexbox
+        display: flex
+        list-style-type: none
+        position: relative
+
+.img_search
+    height: 27px
+    margin-top: 8px
+
+.left-nav a
+    text-decoration: none
+
+.left-nav > a > img:first-child
+    padding-right: 40px
+
+.right-nav > li:first-child
+    padding-right: 33px
+    margin-top: 5px
+
+.right-nav > li:nth-child(2)
+    padding-right: 33px
+
+.cartIconWrap
+    position: relative
+
+    & span
+        display: inline-block
+        width: 19px
+        height: 19px
+        color: white
+        background: #F16D7F
+        border-radius: 50%
+        position: absolute
+        text-align: center
+        right: -8px
+        top: -19px
+        font-size: 12px
+        line-height: 19px
+
+.menu-img
+    padding-bottom: 25px
+
+    &:hover .menu-box
+        display: block
+
+.menu-box
+    background-color: white
+    position: absolute
+    top: 55px
+    display: none
+    z-index: 100
+
+    & img
+        margin-left: 203px
+        margin-right: 16px
+        margin-top: 16px
+
+.text-menu
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 700
+    font-size: 14px
+    line-height: 17px
+    margin-left: 33px
+    margin-bottom: 24px
+
+.menu-box h3
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 17px
+    color: #F16D7F
+    margin-left: 33px
+    margin-bottom: 12px
+    margin-top: 20px
+
+.menu-list a
+    display: block
+    text-decoration: none
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    margin-bottom: 11px
+    color: #6F6E6E
+    margin-left: 54px
+
+    &:hover
+        color: #F16D7F
+
+    &:last-of-type
+        margin-bottom: 20px
+
+.menu-last a:last-of-type
+    margin-bottom: 185px
+
+@media (max-width: 376px)
+
+    .cartIconWrap
+        display: none
+
+    .cartIconLogo
+        display: none
+
+    .menu-box
+        right: 0

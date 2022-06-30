@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bg {
+  background-color: #222222;
+  height: 75px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav,
+.right-nav {
+  margin-top: 20px;
+}
+.left-nav,
+.right-nav {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+}
+
+.img_search {
+  height: 27px;
+  margin-top: 8px;
+}
+
+.left-nav a {
+  text-decoration: none;
+}
+
+.left-nav > a > img:first-child {
+  padding-right: 40px;
+}
+
+.right-nav > li:first-child {
+  padding-right: 33px;
+  margin-top: 5px;
+}
+
+.right-nav > li:nth-child(2) {
+  padding-right: 33px;
+}
+
+.cartIconWrap {
+  position: relative;
+}
+.cartIconWrap span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  color: white;
+  background: #F16D7F;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: -8px;
+  top: -19px;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.menu-img {
+  padding-bottom: 25px;
+}
+.menu-img:hover .menu-box {
+  display: block;
+}
+
+.menu-box {
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  display: none;
+  z-index: 100;
+}
+.menu-box img {
+  margin-left: 203px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.text-menu {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 33px;
+  margin-bottom: 24px;
+}
+
+.menu-box h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  margin-left: 33px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.menu-list a {
+  display: block;
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 11px;
+  color: #6F6E6E;
+  margin-left: 54px;
+}
+.menu-list a:hover {
+  color: #F16D7F;
+}
+.menu-list a:last-of-type {
+  margin-bottom: 20px;
+}
+
+.menu-last a:last-of-type {
+  margin-bottom: 185px;
+}
+
+@media (max-width: 376px) {
+  .cartIconWrap {
+    display: none;
+  }
+
+  .cartIconLogo {
+    display: none;
+  }
+
+  .menu-box {
+    right: 0;
+  }
+}
+.subscribe_right h3 {
+  padding-top: 130px;
+}
+.subscribe_right h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.subscribe_right p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.subscribe {
+  background: url(img/bg_subscribe.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 448px;
+  background-position: bottom;
+  background-size: cover;
+}
+.subscribe__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  padding-top: 86px;
+}
+
+figure p {
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+}
+figure p_right h3 {
+  padding-top: 130px;
+}
+figure p_right h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+figure p_right p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+form {
+  display: flex;
+}
+
+.email {
+  padding: 15px 25px 15px 25px;
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.67;
+  color: #222224;
+  background-color: #E1E1E1;
+  outline: none;
+  width: 75%;
+}
+
+.btn {
+  border-radius: 0px 30px 30px 0px;
+  padding: 15px 25px 15px 15px;
+  border: none;
+  background-color: #E05C6E;
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 1px solid #FF6A6A;
+  width: 40%;
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #F16D7F;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .subscribe__box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .subscribe_left {
+    width: 50%;
+  }
+
+  .subscribe_right {
+    margin-bottom: 140px;
+  }
+}
+@media (max-width: 376px) {
+  .subscribe__box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .subscribe_left {
+    width: 100%;
+  }
+
+  .subscribe_right {
+    margin-bottom: 109px;
+  }
+  .subscribe_right h3 {
+    font-size: 24px;
+  }
+  .subscribe_right p {
+    font-size: 14px;
+  }
+
+  figure p {
+    font-size: 18px;
+  }
+
+  footer {
+    min-height: 143px;
+  }
+
+  .footer-box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer_left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer_right {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+footer {
+  background: #222224;
+  height: 79px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_left {
+  padding-top: 30px;
+}
+.footer_left span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+  padding-left: 10px;
+}
+
+.footer_right {
+  display: flex;
+  padding-top: 24px;
+}
+
+.social {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  margin-right: 7px;
+}
+
+.fa-brands {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  padding-top: 8px;
+  color: #000000;
+}
+.social:hover .fa-brands {
+  color: #FFFFFF;
+}
+
+.social:hover {
+  background: #F16D7F;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background: #F8F3F4;
+  height: 148px;
+}
+
+h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+  padding-top: 59px;
+}
+
+.registration {
+  margin-top: 64px;
+}
+.registration-box {
+  display: flex;
+  justify-content: space-between;
+}
+.registration-left h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.form_reg {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_form {
+  width: 339px;
+  height: 41px;
+  margin-bottom: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  padding: 0 0 0 17px;
+}
+
+.input_checkbox {
+  margin-top: 31px;
+  margin-bottom: 34px;
+}
+.input_checkbox input {
+  margin-right: 10px;
+}
+.input_checkbox label {
+  margin-right: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+form p {
+  width: 360px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.registration-right p {
+  width: 652px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 22px;
+}
+
+.registration-right h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 32px;
+}
+
+.fa-check {
+  margin-right: 23px;
+  margin-bottom: 16px;
+}
+
+.registration-right span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.btn_sub {
+  margin-top: 39px;
+  width: 167px;
+  height: 50px;
+  background: #F16D7F;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-bottom: 96px;
+  border: 1px solid #FF6A6A;
+}
+.btn_sub span {
+  padding-right: 20px;
+}
+
+.subscribe {
+  background: url(../img/bg_subscribe.png) no-repeat;
+  background-size: 100%;
+  height: 448px;
+  background-position: bottom;
+  background-size: cover;
+}
+.subscribe__box {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
